@@ -17,7 +17,6 @@ public class InputLoop  {
 			while((input = br.readLine()) != null){
 				System.out.println(input);
 			}
-			System.out.println(input);
 			
 		} catch (Exception e) {
 			System.err.println(e.getMessage());
